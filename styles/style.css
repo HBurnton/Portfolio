@@ -65,21 +65,29 @@ section {
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
+  -webkit-backdrop-filter: rgb(90, 138, 27);
+          backdrop-filter: rgb(90, 138, 27);
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
+  -webkit-backdrop-filter: rgb(205, 90, 90);
+          backdrop-filter: rgb(205, 90, 90);
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
+  -webkit-backdrop-filter: rgb(206, 203, 18);
+          backdrop-filter: rgb(206, 203, 18);
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
+  -webkit-backdrop-filter: rgb(29, 211, 74);
+          backdrop-filter: rgb(29, 211, 74);
 }
 
 .controls {

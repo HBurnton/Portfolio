@@ -13,6 +13,8 @@ function pageTransition(){
             this.className += ' active-btn';
         });
     }
+
+    //Sections Active Class
 }
 
 pageTransition();
