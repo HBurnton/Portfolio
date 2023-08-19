@@ -70,7 +70,6 @@ section {
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(205, 90, 90);
 }
 
 .sec4 {
@@ -383,6 +382,73 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+}
+
+/* Portfolio */
+.portfolio-text {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.portfolios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding-top: 3rem;
+}
+.portfolios .portfolio-item {
+  position: relative;
+}
+.portfolios .portfolio-item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+.portfolios .portfolio-item .hover-items {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolios .portfolio-item .hover-items h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-white);
+}
+.portfolios .portfolio-item .hover-items .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolios .portfolio-item .hover-items .icons .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: var(--transition-time);
+}
+.portfolios .portfolio-item .hover-items .icons .icon i {
+  font-size: var(--color-white);
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+.portfolios .portfolio-item .hover-items .icons .icon:hover {
+  background-color: var(--color-white);
+  color: #139eb1;
 }
 
 /*Idn comp*/
