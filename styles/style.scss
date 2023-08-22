@@ -428,6 +428,9 @@ section{
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            opacity: 0;
+            transform: scale(0);
+            transition: var(--transition-time);
             h3{
                 font-size: 1.5rem;
                 margin-bottom: 1.5rem;
@@ -448,6 +451,7 @@ section{
                     margin: 0 .5rem;
                     cursor: pointer;
                     transition: var(--transition-time);
+
                     i{
                         font-size: var(--color-white);
                         margin: 0 1rem;
@@ -456,7 +460,7 @@ section{
                     
                     &:hover{
                         background-color: var(--color-white);
-                        color:#139eb1
+                        color:var(--color-secondary);
                         
                     }
                 }
@@ -465,6 +469,11 @@ section{
         
     }
 
+}
+
+.portfolio-item:hover .hover-items{
+    opacity: 1;
+    transform: scale(1);
 }
 
 /*Idn comp*/

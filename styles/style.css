@@ -418,6 +418,9 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transform: scale(0);
+  transition: var(--transition-time);
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
@@ -448,7 +451,12 @@ section {
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
   background-color: var(--color-white);
-  color: #139eb1;
+  color: var(--color-secondary);
+}
+
+.portfolio-item:hover .hover-items {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /*Idn comp*/
