@@ -516,6 +516,11 @@ section {
   padding-bottom: 1rem;
 }
 
+.contact-content-container {
+  display: flex;
+  padding-top: 3.5rem;
+}
+
 /*Idn comp*/
 .btn-container {
   display: flex;
