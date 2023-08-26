@@ -42,4 +42,4 @@ function pageTransition(){
     })
 }
 
-pageTransition();
+pageTransition()
