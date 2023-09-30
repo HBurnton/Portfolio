@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px){
     header{
         padding: 0;
+        overflow: scroll;
     }
     header .right-header{
         padding: 2rem !important;
@@ -27,6 +28,11 @@
         .left-header{
             .h-shape{
                 display: none;
+            }
+
+            .image{
+                margin: 0 auto;
+                width: 90%
             }
         }
     }

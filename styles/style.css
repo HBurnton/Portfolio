@@ -743,6 +743,7 @@ button {
 @media screen and (max-width: 600px) {
   header {
     padding: 0;
+    overflow: scroll;
   }
   header .right-header {
     padding: 2rem !important;
@@ -765,6 +766,10 @@ button {
   }
   .header-content .left-header .h-shape {
     display: none;
+  }
+  .header-content .left-header .image {
+    margin: 0 auto;
+    width: 90%;
   }
   .controls {
     top: auto;
