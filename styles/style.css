@@ -174,7 +174,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100%;
+  min-height: 100vh;
 }
 .header-content .left-header {
   display: flex;
@@ -751,10 +751,10 @@ button {
   .theme-btn {
     width: 50px;
     height: 50px;
+    margin-right: 1rem;
   }
   .header-content {
     grid-template-columns: 1fr;
-    padding-bottom: 6rem;
   }
   .header-content .right-header {
     grid-row: 1;
@@ -797,9 +797,32 @@ button {
   .section {
     padding: 2rem 2.5rem;
   }
+  .main-title h2 {
+    font-size: 2.5rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem;
+  }
   .portfolios {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+  }
+  .contact-content-container {
+    flex-direction: column;
+  }
+  .contact-content-container .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .contact-content-container .right-contact .input-control-2 {
+    flex-direction: column;
+  }
+  .contact-content-container .right-contact .input-control-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
   }
   .controls {
     top: auto;

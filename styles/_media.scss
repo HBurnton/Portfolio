@@ -10,11 +10,11 @@
     .theme-btn{
         width: 50px;
         height: 50px;
+        margin-right: 1rem;
     }
 
     .header-content{
         grid-template-columns: 1fr;
-        padding-bottom: 6rem;
 
         .right-header{
             grid-row: 1;
@@ -68,9 +68,38 @@
         padding: 2rem 2.5rem;
     }
 
+    .main-title{
+        h2{
+            font-size: 2.5rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+
     .portfolios{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+    }
+
+    .contact-content-container{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+            .input-control-2{
+                flex-direction: column;
+                :last-child{
+                    margin-left: 0;
+                    margin-top:1.5rem;
+                }
+        
+            }
+        }
+       
     }
 
     
