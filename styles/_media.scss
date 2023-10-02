@@ -41,7 +41,13 @@
 
 }
 
-@media screen and (max-width: 1376x){    
+@media screen and (max-width: 1376px){
+    .contact-content-container .right-contact{
+        flex: 2;
+    }   
+}
+
+@media screen and (max-width: 1200px){
 }
 
 @media screen and (max-width: 1180px){
@@ -55,6 +61,31 @@
 
     .controls{
         right: 1%;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-content-container{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+            .input-control-2{
+                flex-direction: column;
+                :last-child{
+                    margin-left: 0;
+                    margin-top:1.5rem;
+                }
+        
+            }
+        }
+       
+    }
+
+    .contact-content-container .left-contact .contact-info .contact-item{
+        display: flex;
+        justify-content: flex-start;
     }
     
 }
@@ -155,22 +186,7 @@
 
     
 
-    .contact-content-container{
-        flex-direction: column;
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-            .input-control-2{
-                flex-direction: column;
-                :last-child{
-                    margin-left: 0;
-                    margin-top:1.5rem;
-                }
-        
-            }
-        }
-       
-    }
+    
 
     
 
