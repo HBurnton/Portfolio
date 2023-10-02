@@ -4,11 +4,43 @@
     }
 }
 
-@media screen and (max-width: 1432px){
+@media screen and (max-width: 1670px){
+    section{
+        padding: 2rem 15rem;
+    }
+}
+
+@media screen and (max-width: 1585px){
+    section{
+        padding: 2rem 11rem;
+    }
+}
+
+
+@media screen and (max-width: 1400px){
     section{
     padding: 2rem 10rem;
     }
+
+    .header-content .right-header{
+        padding-right: 9rem;
+    }
     
+    .about-container{
+        grid-template-columns: 1fr;
+        .left-about{
+            text-align: center;
+            padding: 0;
+        }
+    }
+
+    .btn-container{
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1376x){    
 }
 
 @media screen and (max-width: 1180px){
